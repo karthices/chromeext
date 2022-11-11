@@ -1,0 +1,22 @@
+{
+    "name": "Smartsuite!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
+    "action": {
+        "default_popup": "hello.html",
+        "default_title": "Smartsuite Company Selection"
+    },
+    "icons": {
+        "16": "logo-16x16.png",
+        "32": "logo-32x32.png",
+        "48": "logo-48x48.png",
+        "58": "logo.png",
+        "144": "logo-144x144.png",
+        "256": "logo-256x256.png",
+        "512": "logo-512x512.png"
+    }
+}
